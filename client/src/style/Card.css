@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+@font-face {
+  font-family: 'dacasaregular';
+  src: url('../font/dacasa-webfont.woff2') format('woff2'),
+       url('../font/dacasa-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.row {
+  justify-content: center;
+}
+
+.row-rest {
+  font-family: 'Comfortaa', cursive;
+}
+
+.display-results {
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  padding: 0;
+}
+
+.heading {
+  font-family: 'dacasaregular', Arial, sans-serif;
+  text-align: center;
+  margin: 5%;
+  font-size: calc(23px + 1vw);
+  letter-spacing: 2px;
+}
+
+
+.card-body {
+  font-family: 'Comfortaa', cursive;
+  width: 100%;
+  text-align: center;
+  border: 1px solid orange;
+  border-radius: 40px;
+  margin: 5% auto;
+  padding: 7%;
+}
+
+.user-card-body {
+  font-family: 'Comfortaa', cursive;
+  width: 100%;
+  text-align: center;
+  border: 1px solid orange;
+  border-radius: 20px;
+  margin: 5% auto;
+  padding: 3%;
+}
+
+.user-card-body img {
+  width: 80%;
+  margin: 2%;
+  border-radius: 10px;
+}
+
+.card-btn {
+  font-family: 'Inter', sans-serif;
+  padding: 1%;
+  width: 75%;
+  margin: 5% auto;
+  background-color: orange;
+  border: 2px solid black;
+  font-family: 'dacasaregular', Arial, sans-serif;
+  font-size: calc(10px + 1.5vw);
+  letter-spacing: 3px;
+  border-radius: 15px;
+}
+
+.fcard-btn:hover {
+  cursor: pointer;
+}
+
+.card-btn:active {
+  outline: none;
+  transform: translateY(3px); 
+}
+
+.restaurant p {
+  margin: 2%;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-body img {
+  
+  width: 80%;
+  
+  border-radius: 10px;
+}
+
+.category {
+  font-size: 17px;
+  border: none;
+  margin: 1%;
+}
+
+@media (min-width: 992px) { 
+  .restaurant {
+    width: 100%;
+    text-align: center;
+    border: 1px solid orange;
+    border-radius: 40px;
+    justify-content: space-evenly;
+    margin: 0% auto;
+    padding: 10%;
+  }
+}

@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'dacasaregular';
+  src: url('../font/dacasa-webfont.woff2') format('woff2'),
+       url('../font/dacasa-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.wrapper {
+  font-family: 'dacasaregular', Arial, sans-serif;
+  text-align: center;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-wrapper {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-name {
+  font-size: calc(45px + 5vw);
+  letter-spacing: 3px;
+  font-weight: normal;
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+
+.logo img {
+  width: calc(30% + 2vw);
+  width: 80%;
+}
+
+.slogan {
+  font-size: calc(20px + 2vw);
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+@media (min-width: 992px) {
+  .logo img {
+    width: calc(35% + 2vw);
+  }
+  
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .content-wrapper {
+    height: 70vh;
+    display: flex;
+    align-items: start;
+    margin-top: 3%;
+    justify-content: center;
+  }
+}
+

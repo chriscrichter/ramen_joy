@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'dacasaregular';
+  src: url('../font/dacasa-webfont.woff2') format('woff2'),
+       url('../font/dacasa-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/* .navbar-light .navbar-nav .nav-link {
+  color:black;
+  font-size: 30px;
+  border-bottom: 1px solid orange;
+  margin: 5%;
+} */
+
+.lg-nav {
+  display: none;
+}
+
+.sm-nav {
+  display: flex;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-toggler-icon {
+  border-bottom: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(../images/chopsticks.png);
+}
+
+
+.navbar-light .navbar-toggler {
+  
+  border-color: white;
+}
+
+nav {
+  font-family: 'dacasaregular', Arial, sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.nav-item {
+  color: black;
+  font-size: 30px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  
+  border-bottom: 1px solid orange;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+@media (min-width: 992px) {
+  .nav-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar-expand-lg {
+    display: flex;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: space-around;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    margin-top: 0;
+    justify-content: center;
+  }
+}

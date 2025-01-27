@@ -1,0 +1,22 @@
+.search {
+  display: flex;
+  height: 80vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: lightgrey;
+}
+
+@media only screen and (max-width: 600px) {
+  .right {
+    font-size: 12px;
+  }
+}

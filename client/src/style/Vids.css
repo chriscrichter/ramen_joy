@@ -1,0 +1,35 @@
+.video-item {
+    display: flex !important;
+    align-items: center important!;
+    cursor: pointer;
+    font-family: 'Comfortaa', cursive;
+}
+
+.video-item.item img {
+    max-width: 230px;
+    align-items: left !important;
+    margin-left: 25px;
+    margin-bottom: 15px; 
+    margin-right: 15px;
+}
+
+.ui relaxed divided list {
+    max-width: 100px;
+    align-items: left !important;
+    margin-bottom: 15px; 
+    margin-right: 15px;
+}
+
+.ui grid {
+    display: flex !important;
+    margin-left: 25px;
+    align-items: left !important;
+    cursor: pointer;
+}
+
+.eleven wide column {
+    display: flex !important;
+    margin-left: 25px;
+    align-items: center !important;
+    cursor: pointer;
+}

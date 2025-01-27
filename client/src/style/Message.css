@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'dacasaregular';
+  src: url('../font/dacasa-webfont.woff2') format('woff2'),
+       url('../font/dacasa-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logout-btn {
+  font-family: 'Inter', sans-serif;
+  padding: 0;
+  width: 27%;
+  margin: 45% 38%;
+  background-color: orange;
+  border: 2px solid black;
+  font-family: 'dacasaregular', Arial, sans-serif;
+  font-size: calc(14px + 1.5vw);
+  letter-spacing: 3px;
+  border-radius: 15px;
+  padding: 2%;
+}
+
+.logout-btn:hover {
+  cursor: pointer;
+}
+
+.logout-btn:active {
+  outline: none;
+  transform: translateY(3px); 
+}
+
+.msg {
+  font-family: 'dacasaregular', Arial, sans-serif;
+  font-size: calc(14px + 1.5vw);
+  letter-spacing: 2px;
+  margin: 10% 36%;
+}
+
+@media (min-width: 992px) {
+  .logout-btn {
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    width: 13%;
+    margin: 15% 43%;
+    background-color: orange;
+    border: 2px solid black;
+    font-family: 'dacasaregular', Arial, sans-serif;
+    font-size: calc(14px + 1.5vw);
+    letter-spacing: 3px;
+    border-radius: 15px;
+  }
+}

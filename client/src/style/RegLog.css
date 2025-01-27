@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+@font-face {
+  font-family: 'dacasaregular';
+  src: url('../font/dacasa-webfont.woff2') format('woff2'),
+       url('../font/dacasa-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.register-form {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  width: 80%;
+  margin: 20% auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-input {
+  width: 100%;
+  margin: 1%;
+  padding: 4%;
+  border: 1px solid orange;
+  border-radius: 10px;
+}
+
+.form-btn {
+  font-family: 'Inter', sans-serif;
+  padding: 1%;
+  width: 45%;
+  margin: 5% auto;
+  background-color: orange;
+  border: 2px solid black;
+  font-family: 'dacasaregular', Arial, sans-serif;
+  font-size: calc(24px + 1.5vw);
+  letter-spacing: 3px;
+  border-radius: 15px;
+}
+
+.form-btn:hover {
+  cursor: pointer;
+}
+
+.form-btn:active {
+  outline: none;
+  transform: translateY(3px); 
+}
+
+.logo img {
+  display: block;
+  width: calc(15% + 2vw);
+  margin: 1% auto;
+}
+
+@media (min-width: 992px) {
+  .form-container {
+    margin-top: 5%;
+  }
+  
+  .register-form {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    width: 40%;
+    margin: 1% auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .form-input {
+    width: 100%;
+    margin: 1%;
+    padding: 2%;
+    border: 1px solid orange;
+    border-radius: 10px;
+  }
+  
+  .form-btn {
+    font-family: 'Inter', sans-serif;
+    width: 35%;
+    margin: 5% auto;
+    background-color: orange;
+    border: 2px solid black;
+    font-family: 'dacasaregular', Arial, sans-serif;
+    font-size: calc(16px + 1.5vw);
+    letter-spacing: 3px;
+    border-radius: 15px;
+  }
+  
+  .form-btn:hover {
+    cursor: pointer;
+  }
+  
+  .form-btn:active {
+    outline: none;
+    transform: translateY(3px); 
+  }
+
+}
